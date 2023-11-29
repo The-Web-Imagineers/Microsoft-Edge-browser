@@ -1,4 +1,10 @@
-<header>
+<header>The latest version of Internet Explorer is **Internet Explorer 11**¹²³⁴. However, support for Internet Explorer ended on **June 15, 2022**¹²⁴. Internet Explorer 11 has been permanently disabled through a Microsoft Edge update on certain versions of Windows 10¹²⁴. Microsoft recommends using Microsoft Edge for a faster, more secure, and more modern web browsing experience¹²⁴. If any site you visit needs Internet Explorer 11, you can reload it with Internet Explorer mode in Microsoft Edge¹²⁴.
+
+Source: Conversation with Bing, 11/29/2023
+(1) Run the latest version of Internet Explorer 11 - Microsoft Support. https://support.microsoft.com/en-us/windows/run-the-latest-version-of-internet-explorer-11-ea628df4-50ce-8019-f9f4-468e39685cea.
+(2) Internet Explorer - Microsoft Download Center. https://www.microsoft.com/en-us/download/internet-explorer.
+(3) Download Internet Explorer 11 (Offline installer). https://support.microsoft.com/en-us/windows/download-internet-explorer-11-offline-installer-99d492a1-3a62-077b-c476-cf028aff9a7f.
+(4) Internet Explorer Downloads - Microsoft Support. https://support.microsoft.com/en-us/windows/internet-explorer-downloads-d49e1f0d-571c-9a7b-d97e-be248806ca70.
 
 <!--
   <<< Author notes: Course header >>>
@@ -45,7 +51,49 @@ Branches allow you to separate your work from the `main` branch. In other words,
 
    ![code-tab](/images/code-tab.png)
 
-3. Click on the **main** branch drop-down.
+3. Click on the **main** branch drop-down.Sure, here's an article about the versions of Internet Explorer:
+
+# The Evolution of Internet Explorer
+
+Internet Explorer, often abbreviated as IE, was a series of graphical web browsers developed by Microsoft and included as part of the Microsoft Windows line of operating systems.
+
+## Internet Explorer 1.0
+
+Internet Explorer 1.0 was first released as part of the add-on package Plus! for Windows 95 in August 1995. It was a reworked version of Spyglass Mosaic which Microsoft had licensed.
+
+## Internet Explorer 3.0
+
+Internet Explorer 3.0, released in 1996, was the first version to provide a full browsing experience, with support for background sounds, images, tables, and other HTML enhancements.
+
+## Internet Explorer 5.0
+
+Internet Explorer 5.0, released in 1999, was the first version to integrate more closely with Windows, allowing users to browse the web directly from the Windows desktop.
+
+## Internet Explorer 6.0
+
+Internet Explorer 6.0, released in 2001, was the most widely used web browser during its tenure (surpassing Netscape). It was the last version to be based on the Trident layout engine.
+
+## Internet Explorer 7.0
+
+Internet Explorer 7.0, released in 2006, was the first version to include tabbed browsing, a highly requested feature at the time.
+
+## Internet Explorer 8.0
+
+Internet Explorer 8.0, released in 2009, added several new features, including a search box and improved security.
+
+## Internet Explorer 9.0
+
+Internet Explorer 9.0, released in 2011, was the first version to support HTML5 and CSS3.
+
+## Internet Explorer 10.0
+
+Internet Explorer 10.0, released in 2012, was the first version to be included with Windows 8.
+
+## Internet Explorer 11.0
+
+Internet Explorer 11.0, released in 2013, is the final version of Internet Explorer. It was officially discontinued in June 2022.
+
+In conclusion, Internet Explorer has had a long and storied history, from its inception in 1995 to its final version in 2013. Despite being discontinued, it played a significant role in shaping the internet as we know it today.
 
    ![main-branch-dropdown](/images/main-branch-dropdown.png)
 
