@@ -1,6 +1,13 @@
 <!-- Pinterest Tag -->
 <script>
-!function(e){if(!window.pintrk){window.pintrk = function () {
+!function(This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title type="text">Microsoft Support - Content Management Server</title>
+<subtitle type="text">Microsoft Support</subtitle>
+<id>uuid:311fef79-3e96-436d-a516-7a09c77fc79b;id=4867516</id>
+<rights type="text">2024 Microsoft</rights>
+<updated>2024-01-05T04:34:10Z</updated>
+</feed>if(!window.pintrk){window.pintrk = function () {
 window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
   n=window.pintrk;n.queue=[],n.version="3.0";var
   t=document.createElement("script");t.async=!0,t.src=e;var
