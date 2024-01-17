@@ -1,0 +1,43 @@
+### 1. Setting Environment Variables:
+You can set custom environment variables in your GitHub Actions workflow file using the `env` keyword. Here's an example:
+
+```yaml
+name: Github Actions test
+on: [push]
+env:
+  ENV_VARIABLE: test
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "$ENV_VARIABLE"
+```
+
+In this example, `ENV_VARIABLE` is an environment variable set to `test`.
+
+### 2. Accessing Environment Variables:
+You can reference custom environment variables in the `run` command using either the `env` wrapper or the variable name directly. In the example above, `ENV_VARIABLE` is accessed in the `echo` command.
+
+### 3. Default Environment Variables:
+GitHub provides default variables for each GitHub Actions workflow run, like `GITHUB_ACTOR` and `GITHUB_REF`. You can use these in the `run` command using the `env` wrapper.
+
+### 4. Environment Variables Scope:
+The scope of a custom variable is limited to the element in which it is defined. You can define variables for the entire workflow, a specific job, or a step within a job.
+
+### 5. Using Environment Variables in Different Environments:
+Configure environments with protection rules and secrets. Ensure that a workflow job follows protection rules for the environment before running or accessing the environment's secrets.
+
+Remember, for sensitive information like passwords, use secrets for greater security. GitHub Actions documentation and tutorial videos¹²³ can provide more detailed information.
+
+Source: Conversation with Bing, 1/16/2024
+For more details, refer to the official [GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/variables).
+
+(1) [Variables - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/variables).
+(2) [Github Actions Environment Variables: Guide, Examples & Tips - Onboardbase](https://onboardbase.com/blog/github-actions-environment-variables/).
+(3) [Using environments for deployment - GitHub Docs](https://docs.github.com/en/actions/deployment/targeting-different-environments/using-environments-for-deployment).
+(4) [Variables - GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/variables).
+(5) [Set environment variables // GitHub Actions](https://www.youtube.com/watch?v=hAAAQL03f9E).
+(6) [Secrets and Environment Variables in your GitHub Action](https://www.youtube.com/watch?v=dPLPSaFqJmY).
+(7) [GitHub Actions - Getting Started With Environments](https://www.youtube.com/watch?v=5XfgT9A9PHw).
+(8) [Environment variables - How to perform string manipulation while...](https://stackoverflow.com/questions/60432844/how-to-perform-string-manipulation-while-declaring-env-vars-in-github-actions).
+(9) [How to use GitHub Actions environment variables](https://www.techielass.com/how-to-use-github-actions-environment-variables/).feed/atom/73f941ef-ece5-d81f-d692-bc6a7fedb5a6
